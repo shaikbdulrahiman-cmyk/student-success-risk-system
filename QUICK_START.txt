@@ -1,9 +1,35 @@
-1. Install Python 3.10+.
-2. Open Command Prompt in this folder.
-3. Run: python -m venv .venv
-4. Activate: .venv\Scripts\activate
-5. Install: pip install -r requirements.txt
-6. Generate starter data: python main.py --scale starter
-7. Run dashboard: streamlit run dashboard/app.py
-8. Run tests: pytest -q
-9. When ready, generate full data: python main.py --scale full
+Quick Start – macOS
+
+1. Install Python 3.10 or newer.
+
+2. Open Terminal in the project folder.
+
+3. Create a virtual environment:
+   
+   "python3 -m venv venv"
+
+4. Activate it:
+   
+   "source venv/bin/activate"
+
+5. Install dependencies:
+   
+   "pip install -r requirements.txt"
+
+6. Generate starter data:
+   
+   "python main.py --scale starter"
+
+7. Run the dashboard:
+   
+   "python -m streamlit run dashboard/app.py"
+
+8. Run tests:
+   
+   "python -m pytest -q"
+
+9. When ready, generate full data:
+   
+   "python main.py --scale full"
+
+10. Check the generated data and validation reports before submission.

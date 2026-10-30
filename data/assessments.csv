@@ -1,0 +1,5 @@
+assessment_id,course_id,assessment_name,assessment_type,max_marks,week_number
+ASM-001,,Quiz,QUIZ,100,5
+ASM-002,,Assignment,ASSIGNMENT,100,10
+ASM-003,,Midterm,MIDTERM,100,16
+ASM-004,,Project,PROJECT,100,25

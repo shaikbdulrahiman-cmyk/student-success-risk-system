@@ -1,0 +1,6 @@
+anomaly_id,issue_type,entity_id,ground_truth
+ANOM-001,FUTURE_GRADE_LEAKAGE,OUT-000001,A risk model must not use final_grade.
+ANOM-002,WRONG_ATTENDANCE_DENOMINATOR,ATTENDANCE,Approved absences are not countable.
+ANOM-003,WITHDRAWN_STUDENT_ACTIVE,ENROLLMENT,Withdrawn students must not remain active.
+ANOM-004,INTERVENTION_BEFORE_TRIGGER,INTERVENTION,Intervention date must not precede case opening.
+ANOM-005,MISSING_DATA_AS_FAILURE,ASSESSMENT_RESULT,"Missing marks must remain missing, not become zero."

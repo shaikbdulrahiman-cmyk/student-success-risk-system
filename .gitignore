@@ -1,0 +1,25 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+student_success.db
+.DS_Store
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment secrets
+.env
+
+# IDE
+.vscode/
+
+# OS
+.DS_Store
+
+# Temporary files
+.pytest_cache/
